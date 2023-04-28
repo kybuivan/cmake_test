@@ -55,3 +55,7 @@ if(CMAKE_TEST_RTTR)
     add_subdirectory(RTTR/default-arguments)
     add_subdirectory(RTTR/parameter-names)
 endif()
+
+if(CMAKE_TEST_ENTT)
+    add_subdirectory(EnTT/basics)
+endif()
